@@ -12,16 +12,7 @@ export default function PrenchUser() {
       <form className="prenchUserForm">
         <div className="prenchUserItem">
           <label>Nome do Técnico</label>
-          <select className="prenchUserSelect" name="active" id="active">
-            <option value="yes">Ajay Ramchandani</option>
-            <option value="yes">Alex Mota</option>
-            <option value="yes">Davi Simoes</option>
-            <option value="yes">Ermerson Rodrigues</option>
-            <option value="yes">Jasper Semem</option>
-            <option value="yes">Victor Cunha</option>
-            <option value="yes">Winston</option>
-            <option value="yes">Paulo</option>
-          </select>
+          <input type="text" placeholder="" />
         </div>
         <div className="prenchUserItem">
           <label> Nome do Cliente</label>
