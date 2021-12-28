@@ -2,6 +2,7 @@ import "./prench.css";
 import { Link } from "react-router-dom";
 import {Alert} from "@mui/material"
 import {AlertTitle} from '@mui/material';
+import {Home} from '@mui/icons-material';
 
 
 
@@ -24,6 +25,10 @@ export default function PrenchUser() {
         </div>
         <div className="prenchUserItem">
           <label>Descrição do Chamado</label>
+          <input type="text" placeholder="" /> 
+        </div>
+        <div className="prenchUserItem">
+          <label>Codigo do Chamado</label>
           <input type="text" placeholder="" /> 
         </div>
         <div className="prenchUserItem">
